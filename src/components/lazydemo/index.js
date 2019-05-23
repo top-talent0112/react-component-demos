@@ -1,19 +1,14 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload';
+import { Loader } from 'semantic-ui-react';
 import data from './data';
 import './style.css';
-
-const Loading = () => (
-  <div className="post loading">
-    <h5> Loading.... </h5>
-  </div>
-)
 
 const Post = ({id, title, body}) => (
   <div className="post">
     <LazyLoad 
       once={true}
-      placeholder={<Loading />}
+      placeholder={<Loader inverted>Loading</Loader>}
     >
       <div className="post-img">
         <img src={`https://picsum.photos/id/${id}/200/200`} alt="Not found" />
@@ -35,7 +30,7 @@ const LazyDemo = () => (
             key={post.id}
             height={100}
             offset={[-100, 100]}
-            placeholder={<Loading />}>
+            placeholder={<Loader inverted>Loading</Loader>}>
             <Post key={post.id} {...post} />
           </LazyLoad>
         ))}
