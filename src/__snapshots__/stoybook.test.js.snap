@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Dashboard Story initial Dashboard 1`] = `
+<div
+  className="ui center aligned container"
+>
+  <h2
+    className="ui header"
+  >
+    <img
+      className="ui image"
+      src="logo.svg"
+    />
+    <div
+      className="content"
+    >
+      React Component Demo
+    </div>
+  </h2>
+  <div
+    className="menu-plane"
+  >
+    <div
+      className="ui vertical menu"
+    >
+      <a
+        className="item"
+        href="/lazydemo"
+        onClick={[Function]}
+      >
+        <div
+          className="ui teal label"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        Lazy Demo
+      </a>
+      <a
+        className="item"
+        href="/countdown"
+        onClick={[Function]}
+      >
+        <div
+          className="ui teal label"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        Count Down Demo
+      </a>
+      <a
+        className="item"
+        href="/timeline"
+        onClick={[Function]}
+      >
+        <div
+          className="ui teal label"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        Timeline Demo
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Main React App The main app 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="ui center aligned container"
+  >
+    <h2
+      className="ui header"
+    >
+      <img
+        className="ui image"
+        src="logo.svg"
+      />
+      <div
+        className="content"
+      >
+        React Component Demo
+      </div>
+    </h2>
+    <div
+      className="menu-plane"
+    >
+      <div
+        className="ui vertical menu"
+      >
+        <a
+          className="item"
+          href="/lazydemo"
+          onClick={[Function]}
+        >
+          <div
+            className="ui teal label"
+            onClick={[Function]}
+          >
+            1
+          </div>
+          Lazy Demo
+        </a>
+        <a
+          className="item"
+          href="/countdown"
+          onClick={[Function]}
+        >
+          <div
+            className="ui teal label"
+            onClick={[Function]}
+          >
+            2
+          </div>
+          Count Down Demo
+        </a>
+        <a
+          className="item"
+          href="/timeline"
+          onClick={[Function]}
+        >
+          <div
+            className="ui teal label"
+            onClick={[Function]}
+          >
+            3
+          </div>
+          Timeline Demo
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
